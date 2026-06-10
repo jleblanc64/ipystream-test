@@ -77,8 +77,8 @@ def run():
             time.sleep(0.5)
 
     spinned = Spinned(vbox, spinner_html)
-    spinned.get(f, button_create)
-    spinned.get(f2, button2)
+    spinned.bind(f, button_create)
+    spinned.bind(f2, button2)
 
 
 def load_creds(path: str) -> tuple[str, str]:
