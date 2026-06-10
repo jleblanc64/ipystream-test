@@ -1,1 +1,1 @@
-ipystream==0.1.21
+ipystream==0.1.22
